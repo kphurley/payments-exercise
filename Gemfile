@@ -1,14 +1,9 @@
 source 'https://rubygems.org'
 
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem "mysql2", "~> 0.4.10"
 gem 'jbuilder', '~> 2.0'
-# bundle exec rake doc:rails generates the API under doc/api.
+gem 'json'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
